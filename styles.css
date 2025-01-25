@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+
+#body {
+	width:1100px
+}
+
+#col1{
+	width:200px;
+	
+}
+
+#col2{
+	width:600px;
+	text-align:center;
+#col3{
+	width:200px
+}
+
+.imageContainer {
+      width: 900px; /* Width of the container */
+      height: auto; /* Optional: Maintain proportional height */
+      border: 2px solid #000; /* Add a border for visualization */
+      text-align: center; /* Center-align content if needed */
+    }
+
+    .image-container img {
+      width: 100%; /* Make the image take the full width of the container */
+      height: auto; /* Maintain aspect ratio of the image */
+      max-width: 100%; /* Prevent overflow */
+    }
